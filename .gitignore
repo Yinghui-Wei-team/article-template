@@ -31,3 +31,5 @@ vignettes/*.pdf
 *.aux
 *.log
 *.out
+*.bbl
+*.blg
