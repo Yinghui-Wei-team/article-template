@@ -27,8 +27,7 @@ vignettes/*.pdf
 # R Environment Variables
 .Renviron
 *.Rproj
-Statistics_Research_Paper_Template_and_Guidance.synctex
-Statistics_Research_Paper_Template_and_Guidance.aux
-Statistics_Research_Paper_Template_and_Guidance.log
-Statistics_Research_Paper_Template_and_Guidance.out
-Statistics_Research_Paper_Template_and_Guidance.pdf
+*.synctex
+*.aux
+*.log
+*.out
