@@ -1,1 +1,1 @@
-# article-template-latex
+# article-template
