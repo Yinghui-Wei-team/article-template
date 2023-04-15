@@ -13,6 +13,7 @@
 \usepackage{color}
 \usepackage{hyperref}
 \usepackage{graphicx}% Include figure files
+\usepackage[symbol]{footmisc}
 
 %\pagestyle{empty}
 \begin{document}
@@ -23,7 +24,7 @@
 
 \vspace{0.5cm}
 
-Author Name 1, Author Name 2,  Author Name 3 and Author Name 4 \\
+Author Name 1, Author Name 2,  Author Name 3 and Author Name 4 \footnote[1]{Corresponding author: Author Name 4, Centre for Mathematical Sciences, School of Engineering, Computing and Mathematics, University of Plymouth, PL4 8AA, UK. Email: firstnme.surname@plymouth.ac.uk.} \\
 
 {\it Centre for Mathematical Sciences, \\ School of Engineering, Computing and Mathematics, \\ University of Plymouth, PL4 8AA}
 \end{center}
@@ -32,7 +33,9 @@ Author Name 1, Author Name 2,  Author Name 3 and Author Name 4 \\
 \begin{abstract}
 \noindent
 Your brief abstract goes here. The abstract acts as a concise summary of your entire article. It should tell the reader what the report is about, in general terms. It should contain a skeleton
-outline of,  the problem, what you have done, and your conclusions. The abstract should not, if at all possible, use symbols or numbers, and should contain technical terms only if they are unavoidable and widely understood.
+outline of,  the problem, what you have done, and your conclusions. 
+
+%The abstract should not, if at all possible, use symbols or numbers, and should contain technical terms only if they are unavoidable and widely understood.
 
 \end{abstract}
 
@@ -101,11 +104,11 @@ In this section, give your results and interpret them. You may start with report
 \end{figure}
 
 Tables and graphs are useful tools to present your results. If you use pdflatex (recommended) you can include pdf pictures as shown for Fig.~\ref{fig:hist}.
-Note that graph files should be in the same directory as the tex file (unless you prescribe the explicit path before the filename).
+Note that graph files should be in the same directory as the tex file (unless you prescribe the explicit path before the filename). Alternatively, you could use tables to report your results. Pay attention to the caption of your tables and figures. Good presentation means that readers can understand tables and figures in isolation without referring to the text.
 
-Alternatively, you could use tables to report your results.
-
-Pay attention to the caption of your tables and figures. Good presentation means that readers can understand tables and figures in isolation without referring to the text.
+If your article includes extensive results from real data analysis and/or simulation studies, try avoiding typing up the results manually. Instead, write R code to organise your results in tables which can be directly incorporated in your TEX file. Example R code which organises results into a TEX table can be found here: \href{https://github.com/Yinghui-Wei-team/copula-regression-models-semi-competing-risks/blob/main/data_analysis/table/table_hr.R}{example 1},
+\href{https://github.com/Yinghui-Wei-team/copula-regression-models-semi-competing-risks/blob/main/data_analysis/table/table_reg_coef.R}{example 2},
+\href{https://github.com/Yinghui-Wei-team/copula-regression-models-semi-competing-risks/blob/main/simulation_1_cox_underlying_copula/table/sim1_table.R}{example 3}, and \href{https://github.com/Yinghui-Wei-team/copula-regression-models-semi-competing-risks/blob/main/simulation_2_misspecifications/table/sim2_table.R}{example 4}.
 
 
 \begin{table}[h]
