@@ -33,3 +33,5 @@ vignettes/*.pdf
 *.out
 *.bbl
 *.blg
+response_letter
+cover_letter
